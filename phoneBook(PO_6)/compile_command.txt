@@ -1,0 +1,1 @@
+javac phoneBook.java Osoba.java Firma.java NrTelefoniczny.java Wpis.java

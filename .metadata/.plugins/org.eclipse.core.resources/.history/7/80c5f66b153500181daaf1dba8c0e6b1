@@ -1,0 +1,22 @@
+
+
+public class PO6 {
+
+	public static void main(String[] args) {
+			Osoba osoba1 = new Osoba("Janko", "Muzykant", "Lodz", 48, 668213531);
+			Osoba osoba2 = new Osoba("Jan", "Dzban", "Zgierz", 48, 568713931);
+			Osoba osoba3 = new Osoba("Zbyszko", "Bogda", "Pabianice", 48, 581213567);
+			Osoba osoba4 = new Osoba("Ricardo", "Ronaldo", "Salvador", 55, 888261531);
+			Osoba osoba5 = new Osoba("Markus", "Sznajder", "Rotterdam", 31, 888261531);
+			
+			Firma firma1 = new Firma("Mirkopol", "Gdansk", 48, 468213151);
+			Firma firma2 = new Firma("Poltex", "Karkow", 48, 800400400);
+			Firma firma3 = new Firma("KFC", "Chicago", 1, 565328982);
+			Firma firma4 = new Firma("BMW", "Monachium", 49, 888123512);
+			Firma firma5 = new Firma("Sony", "Tokio", 81, 712451974);
+			TreeMap tm = new TreeMap();
+			System.out.println("Rownanie nie ma pierwiastkow");
+	
+	}
+
+}

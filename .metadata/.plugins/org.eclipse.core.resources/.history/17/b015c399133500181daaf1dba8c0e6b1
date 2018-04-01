@@ -1,0 +1,12 @@
+public class Firma extends Wpis {
+String nazwa;
+String adres ;
+// nrTelefonu
+public Firma(String nazwa, String adres){
+        this.nazwa = nazwa;
+        this.adres = adres;
+}
+public void opis() {
+  System.out.println("Firma: " + nazwa + " Adres: " + adres);
+}
+}
