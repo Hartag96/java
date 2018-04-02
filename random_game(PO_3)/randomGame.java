@@ -20,7 +20,6 @@ public class randomGame {
 				n = reader.nextInt();
 				i++;
 
-
 				if( n > rand)
 					System.out.println("Liczba jest mniejsza");
 				else if( n < rand )
