@@ -5,9 +5,13 @@ public class substr {
 	public static void main(String[] args) {
 		int start = 0;
 		int end = 0;
-		int length = 0;
 		String str = null;
 
+		if(args.length < 3) {
+			System.out.println("Za malo argumentow.");
+			return;
+		}
+		
 		try{
 			start = Integer.parseInt(args[0]);
 			end = Integer.parseInt(args[1]);
