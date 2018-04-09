@@ -1,3 +1,4 @@
 public abstract class Wpis {
-	public abstract void opis();
+	public NrTelefoniczny telefon;
+	public abstract String opis();
 }

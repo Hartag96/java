@@ -1,14 +1,14 @@
 public class NrTelefoniczny implements Comparable<NrTelefoniczny> {
-	int nrkierunkowy;
+	int nrKierunkowy;
 	int nrTelefonu;
-	NrTelefoniczny(int nrkierunkowy, int nrTelefonu) {
-		this.nrkierunkowy = nrkierunkowy;
+	public NrTelefoniczny(int nrKierunkowy, int nrTelefonu) {
+		this.nrKierunkowy = nrKierunkowy;
 		this.nrTelefonu = nrTelefonu;
 	}
-	public void printNumber() {
-	    System.out.println("Number: +" + nrkierunkowy + " " + nrTelefonu);   
+	public String printNumber() {
+	    return String.format("%s", "Numer: +" + nrKierunkowy + " " + nrTelefonu);
 	}
 	public int compareTo(NrTelefoniczny other) {
-		return Integer.compare(this.nrkierunkowy, other.nrkierunkowy);
+		return Integer.compare(this.nrTelefonu, other.nrTelefonu);
 	}
 }

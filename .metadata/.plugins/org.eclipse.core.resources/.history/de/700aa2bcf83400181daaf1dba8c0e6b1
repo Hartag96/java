@@ -1,7 +1,0 @@
-public class NrTelefoniczny implements Comparable {
-int nrkierunkowy;
-int nrTelefonu;
-public void check() {
-    System.out.println("Number checked ");
-
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Convert local variable &apos;PO6.main().it&apos; in &apos;PO6.main()&apos; to field&#x0A;- Original project: &apos;PO_6&apos;&#x0A;- Original element: &apos;PO6.main().it&apos;&#x0A;- Field name: &apos;it&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;it&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{PO6.java" name="it" selection="1452 19" stamp="1522528615951" static="true" version="1.0" visibility="2"/>
-</session>
